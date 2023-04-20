@@ -8,7 +8,7 @@ function App() {
 
     return (
         <div className={styles.App}>
-            <h1>Hola esto es una prueba</h1>
+            <h1>Hola estoy usando codux para generar facil y rapidamente esto :D</h1>
             <div>
                 <BnbCard
                     images={[
