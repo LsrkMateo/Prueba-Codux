@@ -29,7 +29,7 @@ export const BnbCard = ({ className, images, title, price }: BnbCardProps) => {
                 <div className={styles['imagen-contenedor']}>
                     <div className={styles['boton-contenedor']}>
                         <button onClick={prevImage}>Prev</button>
-                        <button onClick={prevImage}>Prev</button>
+    
                         <button onClick={nextImages}>Next</button>
                     </div>
                     <img src={images[currentIndex]} alt="imagen de referencia" />
