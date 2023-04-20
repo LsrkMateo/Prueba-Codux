@@ -1,0 +1,24 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card {
+  display: flex;
+  text-align: start;
+  overflow: hidden;
+  flex-direction: column;
+  max-width: 300px;
+  box-shadow: 3px 3px 46px rgba(0, 0, 0, 0.04);
+  opacity: 0.9;
+}
+.botones-contenedor {
+}
+.boton-contenedor {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.imagen-contenedor {
+}
